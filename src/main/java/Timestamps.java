@@ -13,36 +13,24 @@ class Timestamps {
         int hours2 = scanner.nextInt();
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
-
-
-
-
-      int secHours1 = hours1 * 3600;
-      int secHours2 = hours2 * 3600;
-      int secMinutes1 = minutes1 * 60;
-      int secMinutes2 = minutes2 * 60;
-      int secSeconds1 = seconds2 * 1;
-      int secSeconds2 = seconds1 * 1;
-
-      int resultHours = secHours2 - secHours1;
-      int resultMinutes = secMinutes2 - secMinutes1;
-      int resultsSeconds = secSeconds2 - secSeconds1;
-
-      int resultFinal = resultHours + resultMinutes + resultsSeconds;
-
-      System.out.println(resultFinal);
-
-
-
-      
-
-    
-
           
         /*
          *  your code goes here
          */
+          int secHours1 = hours1 * 3600;
+          int secHours2 = hours2 * 3600;
+          int secMinutes1 = minutes1 * 60;
+          int secMinutes2 = minutes2 * 60;
+          int secSeconds1 = seconds2 * 1;
+          int secSeconds2 = seconds1 * 1;
 
+          int resultHours = secHours2 - secHours1;
+          int resultMinutes = secMinutes2 - secMinutes1;
+          int resultsSeconds = secSeconds2 - secSeconds1;
+
+          int resultFinal = resultHours + resultMinutes + resultsSeconds;
+
+          System.out.println(resultFinal);
 
         // closing the scanner object
         scanner.close();

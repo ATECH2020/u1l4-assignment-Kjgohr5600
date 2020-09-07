@@ -16,23 +16,17 @@ class Timestamps {
 
 
 
-      int hoursBefore = scanner.nextInt();
-      int minutesBefore = scanner.nextInt();
-      int secondsBefore = scanner.nextInt();
-      int hoursAfter = scanner.nextInt();
-      int minutesAfter = scanner.nextInt();
-      int secondsAfter = scanner.nextInt();
 
-      int hoursBefore * 3600;
-      int hoursAfter * 3600;
-      int minutesBefore * 60;
-      int minutesAfter * 60;
-      int secondsAfter * 1;
-      int secondsBefore * 1;
+      int secHours1 = hours1 * 3600;
+      int secHours2 = hours2 * 3600;
+      int secMinutes1 = minutes1 * 60;
+      int secMinutes2 = minutes2 * 60;
+      int secSeconds1 = seconds2 * 1;
+      int secSeconds2 = seconds1 * 1;
 
-      int resultHours = hoursAfter - hoursBefore;
-      int resultMinutes = minutesAfter - minutesBefore;
-      int resultsSeconds = secondsAfter - secondsBefore;
+      int resultHours = secHours2 - secHours1;
+      int resultMinutes = secMinutes2 - secMinutes1;
+      int resultsSeconds = secSeconds2 - secSeconds1;
 
       int resultFinal = resultHours + resultMinutes + resultsSeconds;
 

@@ -12,6 +12,10 @@ class StudentDesks {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
+        int desksA;
+        int desksB;
+        int desksC;
+        
 
       //desks for class a
       if ( a % 2 == 0)
@@ -34,10 +38,10 @@ class StudentDesks {
       }else{
         desksC = (c / 2) + 1;
       }
-      
-      
-      
-      deskFinal = desksA + desksB + desksC;
+       
+      int desksFinal = desksA + desksB + desksC;
+
+      System.out.println(desksFinal);
 
       
         /*

@@ -17,12 +17,12 @@ class Timestamps {
         /*
          *  your code goes here
          */
-          int secHours1 = hours1 * 3600;
-          int secHours2 = hours2 * 3600;
-          int secMinutes1 = minutes1 * 60;
-          int secMinutes2 = minutes2 * 60;
-          int secSeconds1 = seconds2 * 1;
-          int secSeconds2 = seconds1 * 1;
+          int secHours1 = hours1 * 3600; //conv hrs to sec
+          int secHours2 = hours2 * 3600;//same as abv
+          int secMinutes1 = minutes1 * 60;//conv min sec
+          int secMinutes2 = minutes2 * 60;//same as abv
+          int secSeconds1 = seconds1 * 1;//conv sec to sec
+          int secSeconds2 = seconds2 * 1;//same as abv
 
           int resultHours = secHours2 - secHours1;
           int resultMinutes = secMinutes2 - secMinutes1;

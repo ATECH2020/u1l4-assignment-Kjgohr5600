@@ -18,32 +18,35 @@ class StudentDesks {
         
 
       //desks for class a
-      if ( a % 2 == 1)
+      if ( a % 2 == 0)
       {
-        desksA = (a / 2) + 1;
-      } else {
-        desksA = (a / 2);
-      }
-
-      if (b % 2 == 1)
-      {
-        desksB = (a / 2) + 1;  
-        
+        desksA = a / 2;
+      
       }else{
-         desksB = a / 2;     
-      }
+    desksA = (a / 2) + 1;
 
-      if (c % 2 == 1)
+
+    }
+      if (b % 2 == 0)
       {
-        desksC = (c / 2) + 1;
+        desksB = b / 2; 
+            
       }else{
-        
+    desksB = (a / 2) + 1;
+}
+
+      if (c % 2 == 0)
+      {
         desksC = c / 2;
+      
+      }else{
+      desksC = (c / 2) + 1;
       }
-       
-      int desksFinal = desksA + desksB + desksC;
 
-      System.out.print(desksFinal);
+
+      System.out.print(desksA + desksB + desksC);
+
+   
 
       
         /*

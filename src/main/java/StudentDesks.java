@@ -18,25 +18,27 @@ class StudentDesks {
         
 
       //desks for class a
-      if ( a % 2 == 0)
+      if ( a % 2 == 1)
       {
-        desksA = a / 2;
-      } else {
         desksA = (a / 2) + 1;
+      } else {
+        desksA = (a / 2);
       }
 
-      if (b % 2 == 0)
+      if (b % 2 == 1)
       {
-        desksB = a / 2;
+        desksB = (a / 2) + 1;  
+        
       }else{
-        desksB = (a / 2) + 1;        
+         desksB = a / 2;     
       }
 
-      if (c % 2 == 0)
+      if (c % 2 == 1)
       {
-        desksC = c / 2;
-      }else{
         desksC = (c / 2) + 1;
+      }else{
+        
+        desksC = c / 2;
       }
        
       int desksFinal = desksA + desksB + desksC;

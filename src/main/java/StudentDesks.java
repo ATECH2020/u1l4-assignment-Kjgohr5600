@@ -41,7 +41,7 @@ class StudentDesks {
        
       int desksFinal = desksA + desksB + desksC;
 
-      System.out.println(desksFinal);
+      System.out.print(desksFinal);
 
       
         /*

@@ -30,7 +30,7 @@ class Timestamps {
 
           int resultFinal = resultHours + resultMinutes + resultsSeconds;
 
-          System.out.println(resultFinal);
+          System.out.print(resultFinal);
 
         // closing the scanner object
         scanner.close();

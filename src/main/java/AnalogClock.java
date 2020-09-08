@@ -11,16 +11,14 @@ class AnalogClock {
       int passedHrs = hourDegree / 30;
       int degPassed = passedHrs * 30;
       int passedMin = hourDegree - degPassed;
-      int minDegree = (30 - passedMin) * 6;
+      int minDegree = (passedMin * 2) * 6;
       System.out.print(minDegree);
 
 
         //Reads ints from user
 
       
-        /*
-         *  your code goes here
-         */
+        
 
         // closing the scanner object
         scanner.close();
